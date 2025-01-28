@@ -76,16 +76,22 @@ body{
 
 #talaInicial > #telaHome{
     width: 80%;
+    height: 100vh;
     margin: auto;
     margin-top: 50px;
 }
 
 #talaInicial > #telaHome > #ariaSegura{
     display: flex;
+    justify-content: space-around;
 } 
 
 #talaInicial > #telaHome > #ariaSegura > #Titulos , #fotoHome{
     width: 50%;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos , #fotoHome > #foto{
+    width: 600px;
 }
 
 #talaInicial > #telaHome > #ariaSegura > #Titulos{
@@ -291,6 +297,8 @@ body{
 
 #telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .ferramentas > .iconesLingua > .img1{
     margin-top: 15px;
+    width: 40px;
+    height: 40px;
 }   
 
 #telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .dados{
@@ -383,6 +391,10 @@ body{
 
 #telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > .imagemProjeto > img{
     border-radius: 20px;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > .imagemProjeto > img{
+    width: 600px;
 }
 
 
