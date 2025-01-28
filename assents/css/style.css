@@ -1,0 +1,613 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.ariaCima{
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#talaInicial{
+    background-image: url(imagens/Logo-funfo-sombra.png);
+    background-size: 35% auto;
+    background-repeat: no-repeat;
+    background-position:  top right ;
+    width: 100%;
+    height: auto;
+    padding: 0 0 50px 0;
+}
+
+#talaInicial > #cabecalho{
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#talaInicial > #cabecalho > #espacoHeader{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+#talaInicial > #cabecalho > #espacoHeader > #menuNavegacao, #espacoLogo{
+    width: 50%;
+
+}
+
+#talaInicial > #cabecalho > #espacoHeader >#menuNavegacao > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+#talaInicial > #cabecalho > #espacoHeader >#menuNavegacao > ul > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#talaInicial > #cabecalho > #espacoHeader >#menuNavegacao > ul > li > a:hover{
+    border-bottom: 1px solid #607d8b;
+    padding-bottom: 3px;
+    color: #607d8b;
+}
+
+/* ---------- Inicio da Estilização da tela de Home --------------- */
+
+#talaInicial > #telaHome{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#talaInicial > #telaHome > #ariaSegura{
+    display: flex;
+} 
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos , #fotoHome{
+    width: 50%;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos > .txt{
+    margin-bottom: 15px;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos > .txt > h3, h1{
+    font-family: var(--font-principal);
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos > .txt > h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos > .txt >  h1{
+    font-size: 80px;
+    color: #032a30;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos > #btn > input{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}  
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos > #btn > input:hover{
+    background-color: #607d8b;
+    color: white;
+    transition: 0.2s;
+    direction: left;
+}
+
+#talaInicial > #telaHome > #ariaSegura > #fotoHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ------------------------------ Estilização do Sobre mim ----------------*/
+
+#telaSobreMim{
+    width: 100%;
+    background-color: #06505b;
+}
+
+#telaSobreMim > #espacoSobre {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0 150px 0;
+}
+
+#telaSobreMim > #espacoSobre > .titleSecao{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: aliceblue;
+}
+
+#telaSobreMim > #espacoSobre > .titleSecao > h1{
+    font-weight: 400;
+    border-left: solid 5px aliceblue;
+    padding-left: 15px;
+    font-size: 1.5rem;
+
+}
+
+#telaSobreMim > #espacoSobre > #dadosEfoto{
+    display: flex;
+    width: 80%;
+    margin: auto;   
+    gap: 60px; 
+}
+
+#telaSobreMim > #espacoSobre > #dadosEfoto > #img > img{
+    width: 450px;
+}
+
+#telaSobreMim > #espacoSobre > #dadosEfoto > #txtsSobre{
+    margin-top: px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+#telaSobreMim > #espacoSobre > #dadosEfoto > #txtsSobre > h1{
+    font-size: 35px;
+}
+
+#telaSobreMim > #espacoSobre > #dadosEfoto > #txtsSobre > p{
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 0 10px 0;
+}
+#telaSobreMim > #espacoSobre > #dadosEfoto > #txtsSobre > .dados > p{
+    margin: 15px 0 15px 0;
+}
+
+/*----------------------- Esilização especialidades ----------------*/
+
+#telaEspecialidades{
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+#telaEspecialidades > #espacoEspecialdiades{
+    width: 80%;
+    margin: auto;
+}
+
+
+#telaEspecialidades > #espacoEspecialdiades >  .titleSecao{
+     width: 100%;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: left;
+}
+#telaEspecialidades > #espacoEspecialdiades >  .titleSecao > h1 {
+    border-left: solid 5px #06505B;
+    padding-left: 15px;
+    color: #06505B;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades{
+    max-width: 1500px;
+    height: 800px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    display: flex;
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades{
+    width: 33.4%;
+    height: 100%;
+    border-right: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .imgFrontTitlle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .imgFrontTitlle > h2{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .imgFrontTitlle > .text{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .ferramentas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .ferramentas > h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .ferramentas > .iconesLingua{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .ferramentas > .iconesLingua > .img1{
+    margin-top: 15px;
+}   
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .dados{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .dados > h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .dados > .iconesLingua{
+    display: flex;
+    justify-content: center;
+
+}
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .dados > .iconesLingua > .img2{
+    margin-top: 15px;
+}
+
+
+
+/*   ESTILIZAÇÃO DAS ESPECIALDIADES 2 (ÁRIA DAS COISAS QUE GOSTA DE FAZER)*/
+
+#telaEspecialidades > #espacoEspecialdiades > #ariaEspecialidades > .especialidades > #ariaSegura > .dados > .AfazeresDesigner{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/*ESTILIZAÇÃO  ÁRIA DOS PROJETOS*/
+
+#telaProjetos{
+    padding: 50px 0 0 0;
+}
+
+#telaProjetos > #espacoProjetos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+
+#telaProjetos > #espacoProjetos > .titleSecao{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+#telaProjetos > #espacoProjetos > .titleSecao > h1 {
+    border-left: solid 5px #06505B;
+    padding-left: 15px;
+    color: #06505B;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5f6;
+    border-radius: 25px;
+    padding-top: 25px;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > .imagemProjeto, #titleEInfor{
+    width: 45%;
+}
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > .imagemProjeto{
+    display: flex;
+    justify-content: center;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > .imagemProjeto > img{
+    border-radius: 20px;
+}
+
+
+/*Estilizando as informações dps projetos*/
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > h1{
+    font-size: 1.8rem;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .tags{
+    display: flex;
+    gap: 15px
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .tags > .tag1{
+    width: 80px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #d5fa5d;
+}
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > p{
+    font-size: 1.2rem;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .btn > a{
+    position: relative;
+    text-decoration: none;
+
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .btn > a > button{
+    position: absolute;
+    left: 480px;
+    top: 115px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #607d8b;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    
+
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .btn > a > button:hover{
+    background-color: #cbcbcb;
+    color: black;
+    transition: 0.2s linear;
+    direction: left;
+}
+
+#telaProjetos > #espacoProjetos > #Projeto > .rodapeProjeto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+
+/*Estilização do botão ver mais*/
+
+#telaProjetos > #espacoProjetos > button{
+    font-size: 1.3rem;
+    width: 130px;
+    padding-bottom: 5px;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+
+#telaProjetos > #espacoProjetos > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*Estilizando ária de contato*/
+
+
+#telaContatos{
+    background-color: #f3f5f6;
+
+}
+
+#telaContatos > #ariaContato {
+    width: 80%;
+    margin: auto;
+}
+
+#telaContatos > #ariaContato > #textos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    padding: 200px 0 200px 0;
+}
+
+#telaContatos > #ariaContato > #textos > #txt{
+    font-size: 1.2rem;
+}
+
+#telaContatos > #ariaContato > #textos > .botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#telaContatos > #ariaContato > #textos > .botao > a{
+    width: 300px;
+    height: 60px;
+    text-decoration: none;
+}
+
+#telaContatos > #ariaContato > #textos > .botao >  a > button {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: #607D8B;
+}
+
+
+#telaContatos > #ariaContato > #textos > .botao >  a > button:hover{
+    background-color: #d4d4d4;
+    color: black;
+    transition:0.2s;
+}
+
+
+#telaContatos > #ariaContato > #textos > #txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color: #06505B;
+    color: white;
+}
+
+footer > #ariaFooter{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+}
+
+footer > #ariaFooter > .logoMarca > a > img{
+    width: 145px;
+}
+
+
+
+footer > #ariaFooter > #iconesRedes{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer > #ariaFooter > #iconesRedes > a > .imgFoot{
+    width: 40px;
+    height: 40px;
+}
+
+footer > #ariaFooter > #menuNavegacaoFoot{
+    width: 60%;
+    height: 50px;
+} 
+
+.txtFooter2{
+    text-align: center;
+}
+
+footer > #ariaFooter > #menuNavegacaoFoot > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer > #ariaFooter > #menuNavegacaoFoot > ul > li{
+    list-style: none;
+}
+
+footer > #ariaFooter > #menuNavegacaoFoot > ul > li:hover{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 3px;
+    color: #ffffff;
+}
+
+footer > #ariaFooter > #menuNavegacaoFoot > ul > li > a{
+    text-decoration: none;
+    color: #ffffff;
+}
