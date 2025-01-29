@@ -543,15 +543,15 @@ body{
     font-size: 1rem;
     cursor: pointer;
     font-weight: 500;
-    color: white;
-    border: 1px solid #ffffff;
-    background-color: #607D8B;
+    color: rgb(0, 0, 0);
+    border: 1px solid #CBCBCB;
+    background-color: #CBCBCB;
 }
 
 
 #telaContatos > #ariaContato > #textos > .botao >  a > button:hover{
-    background-color: #d4d4d4;
-    color: black;
+    background-color: #607D8B;
+    color: white;
     transition:0.2s;
 }
 
