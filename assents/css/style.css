@@ -112,7 +112,7 @@ body{
     font-family: var(--font-principal);
 }
 
-#talaInicial > #telaHome > #ariaSegura > #Titulos > .txt > h3{
+#talaInicial > #telaHome > #ariaSegura > #Titulos > .txt > p{
     font-size: 35px;
     font-weight: 400;
 }
