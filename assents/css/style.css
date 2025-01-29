@@ -76,22 +76,25 @@ body{
 
 #talaInicial > #telaHome{
     width: 80%;
-    height: 100vh;
+    height: 90vh;
     margin: auto;
     margin-top: 50px;
 }
 
-#talaInicial > #telaHome > #ariaSegura{
+#talaInicial > #telaHome > #ariaSegura {
     display: flex;
-    justify-content: space-around;
-} 
+    width: 100%;
+    height: 80%;
+    justify-content: space-evenly;
+}
 
-#talaInicial > #telaHome > #ariaSegura > #Titulos , #fotoHome{
+
+#talaInicial > #telaHome > #ariaSegura > #Titulos, #fotoHome {
     width: 50%;
 }
 
 #talaInicial > #telaHome > #ariaSegura > #Titulos , #fotoHome > #foto{
-    width: 600px;
+    width: 100%;
 }
 
 #talaInicial > #telaHome > #ariaSegura > #Titulos{
@@ -119,7 +122,7 @@ body{
     color: #032a30;
 }
 
-#talaInicial > #telaHome > #ariaSegura > #Titulos > #btn > input{
+#talaInicial > #telaHome > #ariaSegura > #Titulos > #btn > a  > input{
     width: 180px;
     height: 50px;
     border-radius: 30px;
@@ -128,7 +131,7 @@ body{
     cursor: pointer;
 }  
 
-#talaInicial > #telaHome > #ariaSegura > #Titulos > #btn > input:hover{
+#talaInicial > #telaHome > #ariaSegura > #Titulos > #btn > a > input:hover{
     background-color: #607d8b;
     color: white;
     transition: 0.2s;
