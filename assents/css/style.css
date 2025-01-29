@@ -438,7 +438,7 @@ body{
 
 }
 
-#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .btn > a > button{
+#telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .btn > a > button{  
     position: absolute;
     left: 480px;
     top: 115px;
