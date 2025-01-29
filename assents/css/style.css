@@ -446,9 +446,9 @@ body{
     height: 50px;
     border-radius: 25px;
     border: none;
-    background-color: #607d8b;
+    background-color: #cbcbcb;
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 1rem;
     
@@ -456,8 +456,8 @@ body{
 }
 
 #telaProjetos > #espacoProjetos > #Projeto > .dadosProjeto > #titleEInfor > .btn > a > button:hover{
-    background-color: #cbcbcb;
-    color: black;
+    background-color: #607D8B;
+    color: white;
     transition: 0.2s linear;
     direction: left;
 }
